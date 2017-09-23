@@ -7,18 +7,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../sources/css/style.css">
     <script>
         var vidyoConnector;
         function onVidyoClientLoaded(status) {
             console.log("Status - " + status.state);
             if(status.state == "READY"){
                 VC.CreateVidyoConnector({
-                    viewId: "renderer",
+                    viewId: null,              //"renderer"
                     viewStyle: "VIDYO_CONNECTORVIEWSTYLE_Default",
                     remoteParticipants: 16,
                     logFileFilter:"error",
                     logFileName:"",
                     userData:""
+//                    presentationAllowed: 0
 
                 }).then(function (vc) {
                     console.log("Created success");
@@ -47,12 +49,151 @@
                 }
             })
         }
+
+        //=============== =============================== ========================
+        vidyoConnector.RegisterLocalCameraEventListener({
+            onAdded: function(localCamera) {
+                // New local camera added
+            },
+            onRemoved: function(localCamera) {
+                // Local camera removed
+            },
+            onSelected: function(localCamera) {
+                // Camera was selected/unselected by you or automatically
+            }
+        }).then(function() {
+            console.log("RegisterLocalCameraEventListener Success");
+        }).catch(function() {
+            console.error("RegisterLocalCameraEventListener Failed");
+        });
+
+        // Assign view to local camera
+        vidyoConnector.AssignViewToLocalCamera({
+            viewId: "renderer", // view ID specific to render local camera
+            localCamera: localCamera,
+            displayCropped: true,
+            allowZoom: false
+        }).then(function(vc) {
+            vidyoConnector = vc;
+        }).catch(function(e) {
+
+        });
+
+        // Handle appearance and disappearance of microphone devices in the system
+        vidyoConnector.RegisterLocalMicrophoneEventListener({
+            onAdded: function(localMicrophone) {
+// New microphone is available
+            },
+            onRemoved: function(localMicrophone) {
+// Existing microphone became unavailable
+            },
+            onSelected: function(localMicrophone) {
+// Microphone was selected/unselected by you or automatically
+            },
+            onStateUpdated: function(localMicrophone, state) {
+// Microphone state was updated
+            }
+        }).then(function() {
+            console.log("RegisterLocalMicrophoneEventListener Success");
+        }).catch(function() {
+            console.error("RegisterLocalMicrophoneEventListener Failed");
+        });
+
+        // Handle appearance and disappearance of speaker devices in the system
+        vidyoConnector.RegisterLocalSpeakerEventListener({
+            onAdded: function(localSpeaker) {
+                // New speaker is available
+            },
+            onRemoved: function(localSpeaker) {
+                // Existing speaker became unavailable
+            },
+            onSelected: function(localSpeaker) {
+                // Speaker was selected/unselected by you or automatically
+            },
+            onStateUpdated: function(localSpeaker, state) {
+                // Speaker state was updated
+            }
+        }).then(function() {
+            console.log("RegisterLocalSpeakerEventListener Success");
+        }).catch(function() {
+            console.error("RegisterLocalSpeakerEventListener Failed");
+        });
     </script>
+
+    <script type="text/javascript">
+        $('#block1').onclick(function () {
+           return $('#block1').css();
+        });
+    </script>
+
     <script src="https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded"></script>
 </head>
 <body style="background-color: #acffa5">
     <h1 class="text" style="text-align: center; color: white; font-family: 'Arial Black'; font-size: 50px"> Play </h1>
     <button onclick="joinCall()">Connect</button>
-    <div id="renderer" style="width: 700px; height: 500px"> </div>
+    <div id="renderer" style="height: 500px; width: 100%"> </div>
+
+    <!--<div id="sample1" style="height: 200px; width: 300px"></div>-->
+    <!--<div id="sample2" style="height: 200px; width: 300px"></div>-->
+    <!--<div id="sample3" style="height: 200px; width: 300px"></div>-->
+
+    <div class="wrapper">
+
+        <div class="block" id="block1">
+            <div class="text">
+                <span>
+                    Opisanie
+                </span>
+            </div>
+            <div class="overlay">
+                <img src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/12000/12669.jpg" alt="OVERLAY">
+            </div>
+        </div>
+
+        <div class="block" id="block2">
+            <div class="text">
+                <span>
+                    Opisanie
+                </span>
+            </div>
+            <div class="overlay">
+                <img src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/12000/12669.jpg" alt="OVERLAY">
+            </div>
+        </div>
+
+        <div class="block" id="block3">
+            <div class="text">
+                <span>
+                    Opisanie
+                </span>
+            </div>
+            <div class="overlay">
+                <img src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/12000/12669.jpg" alt="OVERLAY">
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="text">
+                <span>
+                    Opisanie
+                </span>
+            </div>
+            <div class="overlay">
+                <img src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/12000/12669.jpg" alt="OVERLAY">
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="text">
+                <span>
+                    Opisanie
+                </span>
+            </div>
+            <div class="overlay">
+                <img src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/12000/12669.jpg" alt="OVERLAY">
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
