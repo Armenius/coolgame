@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ddc2ec6-75e2-4090-8463-4f0d8f6f8453" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/coolgamev2.iml" afterPath="$PROJECT_DIR$/.idea/coolgamev2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ingame.html" afterPath="$PROJECT_DIR$/templates/ingame.html" />
     </list>
@@ -31,8 +30,8 @@
       <file leaf-file-name="ingame.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/ingame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            <state relative-caret-position="193">
+              <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1125,7 +1124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506158049580</updated>
       <workItem from="1506158051157" duration="424000" />
-      <workItem from="1506158639466" duration="8490000" />
+      <workItem from="1506158639466" duration="10199000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1506158741874</created>
@@ -1155,11 +1154,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506166982191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add camera data">
+      <created>1506169169551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506169169551</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8914000" />
+    <option name="totallyTimeSpent" value="10623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1235,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ingame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        <state relative-caret-position="193">
+          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />

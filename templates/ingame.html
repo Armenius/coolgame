@@ -33,8 +33,8 @@
             // To join a video conference call Connect method
             vidyoConnector.Connect({
                 host:"prod.vidyo.io",  // Server name, for most production apps it will be prod.vidyo.io
-                token:"",          // Add generated token (https://developer.vidyo.io/documentation/4-1-16-8/getting-started#Tokens)
-                displayName:"Sachin",  // Display name
+                token:"cHJvdmlzaW9uAGNhdHVyQGE3NTk2Yy52aWR5by5pbwA2MzY3MzM5OTIyMAAAM2I0YjUwOWFiNDQ5Zjg3NjBmMDQwYjhmY2QxNjIwNmFjNWE5MmRlNTgzNDZmNzZiNDdkOGVmMDAyMTA0MzJiZGYwMDM3M2FjM2QxZjZiNmZiM2Q5MDUzMjM5MDBkMDky",          // Add generated token (https://developer.vidyo.io/documentation/4-1-16-8/getting-started#Tokens)
+                displayName:"catur",  // Display name
                 resourceId:"demoRoom", // Room name
                 onSuccess: function(){
                     console.log("Connected!! YAY!");
@@ -52,6 +52,7 @@
 </head>
 <body style="background-color: #acffa5">
     <h1 class="text" style="text-align: center; color: white; font-family: 'Arial Black'; font-size: 50px"> Play </h1>
+    <button onclick="joinCall()">Connect</button>
     <div id="renderer" style="width: 700px; height: 500px"> </div>
 </body>
 </html>
