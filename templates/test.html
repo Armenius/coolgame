@@ -2,13 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Start the gaem</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="../sources/css/ingame.css">
-    <script type="text/javascript" src="../sources/js/ingame.js"></script>
+    <title>Title</title>
     <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script>if (window.module) module = window.module;</script>
@@ -192,81 +186,93 @@
             }
         });
     </script>
-
-    <script src="https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded"></script>
 </head>
-<body style="background-color: #acffa5">
-    <h1 class="text" style="text-align: center; color: white; font-family: 'Arial Black'; font-size: 50px"> Play </h1>
+<body>
+<body id="vidyoConnector">
+<div id="options" class="optionsHide">
+
     <form>
         <div id="optionsParameters">
             <p>
+                <!-- The host of our backend service. -->
                 <label>Host</label>
                 <input type="text" id="host" value="prod.vidyo.io">
             </p>
             <p>
+                <!-- A token that is derived from the deveoper key assigned to your account which will allow access for this particular instance.
+                The token will contain its expiration date and the user ID.
+                For more information visit the developer section of http://vidyo.io -->
                 <label>Token</label>
-                <input type="text" id="token" placeholder="Host-Token" value="">
+                <input type="text" id="token" placeholder="ACCESS-TOKEN" value="">
             </p>
             <p>
-                <label for="displayName">Pickup Nickname</label>
-                <input id="displayName" type="text" placeholder="Nickname" value="Guest">
+                <!-- This is the display name that other users will see.
+                -->
+                <label for="displayName">Display Name</label>
+                <input id="displayName" type="text" placeholder="Display Name" value="Guest">
             </p>
             <p>
-                <label for="resourceId">Room name</label>
-                <input id="resourceId" type="text" placeholder="Room name" value="demoRoom">
+                <!-- This is the "room" or "space" to which you're connecting
+                the user. Other users who join this same Resource will be able to see and hear each other.
+                -->
+                <label for="resourceId">Resource ID</label>
+                <input id="resourceId" type="text" placeholder="Conference Reference" value="demoRoom">
             </p>
         </div>
-        <!--<p>-->
-            <!--<label for="cameras">Cameras</label>-->
-            <!--<select id="cameras">-->
-                <!--<option value='0'>None</option>-->
-            <!--</select>-->
-        <!--</p>-->
-        <!--<p>-->
-            <!--<label for="microphones">Microphones</label>-->
-            <!--<select id="microphones">-->
-                <!--<option value='0'>None</option>-->
-            <!--</select>-->
-        <!--</p>-->
-        <!--<p>-->
-            <!--<label for="speakers">Speakers</label>-->
-            <!--<select id="speakers">-->
-                <!--<option value='0'>None</option>-->
-            <!--</select>-->
-        <!--</p>-->
+        <p>
+            <!-- On page load, this input is filled with a list of all the available cameras on the user's system. -->
+            <label for="cameras">Cameras</label>
+            <select id="cameras">
+                <option value='0'>None</option>
+            </select>
+        </p>
+        <p>
+            <!-- On page load, this input is filled with a list of all the available microphones on the user's system. -->
+            <label for="microphones">Microphones</label>
+            <select id="microphones">
+                <option value='0'>None</option>
+            </select>
+        </p>
+        <p>
+            <!-- On page load, this input is filled with a list of all the available microphones on the user's system. -->
+            <label for="speakers">Speakers</label>
+            <select id="speakers">
+                <option value='0'>None</option>
+            </select>
+        </p>
     </form>
-    <a href="javascript:joinViaBrowser()">CAMERA ON</a>
-    <input type="button" id="joinLeaveButton" title="Join Conference" class="toolbarButton callStart" value="Connect the server">
-
-    <!--<div id="renderer0" style="height: 500px; width: 100%"> </div>-->
-    <!--<div id="renderer1" style="height: 500px; width: 100%"> </div>-->
-    <!--<div id="renderer2" style="height: 500px; width: 100%"> </div>-->
-    <!--<div id="renderer3" style="height: 500px; width: 100%"> </div>-->
-    <!--<div id="renderer4" style="height: 500px; width: 100%"> </div>-->
-    <!--<div id="renderer5" style="height: 500px; width: 100%"> </div>-->
-
-    <div id="boxbutton">
-            <span class="link">
-                <span id="count">0</span>
-                Click
-            </span>
-        &nbsp;
+    <div id="messages">
+        <!-- All Vidyo-related messages will be inserted into these spans. -->
+        <span id="error"></span>
+        <span id="message"></span>
     </div>
-    <div id="boxcard">
-        <div id="card1"><div style="visibility: hidden" id="renderer0"></div>
-            <img src="../media/img/01.jpg" /></div>
-        <div id="card2"><div id="renderer1"></div>
-            <img src="../media/img/02.jpg" /></div>
-        <div id="card3"><img src="../media/img/03.jpg" /></div>
-        <div id="card4"><img src="../media/img/04.jpg" /></div>
-        <div id="card5"><img src="../media/img/05.jpg" /></div>
-        <div id="card11"><img src="../media/img/01.jpg" /></div>
-        <div id="card12"><img src="../media/img/02.jpg" /></div>
-        <div id="card13"><img src="../media/img/03.jpg" /></div>
-        <div id="card14"><img src="../media/img/04.jpg" /></div>
-        <div id="card15"><img src="../media/img/05.jpg" /></div>
+</div>
+<!-- This is the div into which the Vidyo component will be inserted. -->
+<div id="renderer0" class="pluginOverlay" style="width: 100px; height: 100px"> </div>
+<div id="renderer1" class="pluginOverlay" style="width: 100px; height: 100px"> </div>
+<div id="renderer2" class="pluginOverlay" style="width: 100px; height: 100px"> </div>
+<div id="renderer3" class="pluginOverlay" style="width: 100px; height: 100px"> </div>
+<div id="renderer4" class="pluginOverlay" style="width: 100px; height: 100px"> </div>
+<div id="renderer5" class="pluginOverlay" style="width: 100px; height: 100px"> </div>
 
-    </div>
+<input type="button" id="joinLeaveButton" title="Join Conference" class="toolbarButton callStart" value="Connect the server">
 
+<div id="toolbarRight" class="toolbar">
+    <span id="connectionStatus">Initializing</span>
+    <span id="clientVersion"></span>
+</div>
+
+<div id="helper">
+    <table>
+        <tr>
+            <td><img class="logo" src="Images/VidyoIO-LogoHorizontal-Dark@2x.png"/></td>
+        </tr>
+        <tr>
+            <td id="helperText">How would you like to join the call?</td>
+        </tr>
+        <div class="helperFooter">
+            <a href="javascript:joinViaBrowser()">Join via the browser</a>
+        </div>
+</div>
 </body>
 </html>
