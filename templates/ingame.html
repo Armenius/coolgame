@@ -7,28 +7,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="../sources/css/style.css">
+    <script>
+        function onVidyoClientLoaded(status) {
+            console.log("Status - " + status.state);
+            if(status.state == "READY"){
+                VC.CreateVidyoConnector({
+                    viewId: "renderer",
+                    viewStyle: "VIDYO_CONNECTORVIEWSTYLE_Default",
+                    remoteParticipants: 16,
+                    logFileFilter:"error",
+                    logFileName:"",
+                    userData:""
+
+                }).then(function (vc) {
+                    console.log("Created success");
+                }).catch(function (error) {
+                    console.error("Create failed" + error);
+                })
+            }
+        }
+    </script>
     <script src="https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded"></script>
 </head>
-<body class="background-game">
-    <h1 class="text"> Welcome </h1>
-
-    <table>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+<body style="background-color: #acffa5">
+    <h1 class="text" style="text-align: center; color: white; font-family: 'Arial Black'; font-size: 50px"> Play </h1>
+    <div id="renderer" style="width: 700px; height: 500px"> </div>
 </body>
 </html>
