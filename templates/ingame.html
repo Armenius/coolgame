@@ -8,6 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
+        var vidyoConnector;
         function onVidyoClientLoaded(status) {
             console.log("Status - " + status.state);
             if(status.state == "READY"){
@@ -21,10 +22,30 @@
 
                 }).then(function (vc) {
                     console.log("Created success");
+                    vidyoConnector = vc;
                 }).catch(function (error) {
                     console.error("Create failed" + error);
                 })
             }
+        }
+
+        function joinCall(){
+            // To join a video conference call Connect method
+            vidyoConnector.Connect({
+                host:"prod.vidyo.io",  // Server name, for most production apps it will be prod.vidyo.io
+                token:"",          // Add generated token (https://developer.vidyo.io/documentation/4-1-16-8/getting-started#Tokens)
+                displayName:"Sachin",  // Display name
+                resourceId:"demoRoom", // Room name
+                onSuccess: function(){
+                    console.log("Connected!! YAY!");
+                },
+                onFailure: function(reason){
+                    console.error("Connection failed");
+                },
+                onDisconnected: function(reason) {
+                    console.log(" disconnected - " + reason);
+                }
+            })
         }
     </script>
     <script src="https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded"></script>

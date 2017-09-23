@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ddc2ec6-75e2-4090-8463-4f0d8f6f8453" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/coolgamev2.iml" afterPath="$PROJECT_DIR$/.idea/coolgamev2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/css/style.css" afterPath="$PROJECT_DIR$/sources/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ingame.html" afterPath="$PROJECT_DIR$/templates/ingame.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,18 +21,32 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="-14">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ingame.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/ingame.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="323">
+              <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -51,6 +65,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="catur &lt;caturyanarmen@gmail.com&gt;" />
         <option value="Armen" />
       </list>
     </option>
@@ -59,8 +74,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/sources/css/ingame.css" />
         <option value="$PROJECT_DIR$/sources/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/ingame.html" />
       </list>
     </option>
   </component>
@@ -130,6 +147,961 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/.bin/sshpk-conv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/.bin/sshpk-sign</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/.bin/sshpk-verify</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/.bin/uuid</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/.tonic_example.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/dist/nodent.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/dist/regenerator.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/$data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/ajv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/cache.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/_rules.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/async.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/error_classes.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/formats.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/resolve.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/rules.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/schema_obj.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/ucs2length.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/compile/util.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/_limit.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitItems.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitLength.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitProperties.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/allOf.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/anyOf.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/coerce.def</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/const.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/contains.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/custom.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/defaults.def</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/definitions.def</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/dependencies.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/enum.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/errors.def</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/format.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/items.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/missing.def</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/multipleOf.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/not.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/oneOf.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/pattern.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/properties.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/propertyNames.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/ref.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/required.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/uniqueItems.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dot/validate.jst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/allOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/const.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/contains.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/propertyNames.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/keyword.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/patternGroups.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/refs/$data.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-04.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-06.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-v5.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/scripts/.eslintrc.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/scripts/bundle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/scripts/compile-dots.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/scripts/info</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/scripts/prepare-tests</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ajv/scripts/travis-gh-pages</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/.jshint</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/another-json.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/another-json/spec/another-json-spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/lib/ber/errors.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/lib/ber/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/lib/ber/reader.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/lib/ber/types.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/lib/ber/writer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/tst/ber/reader.test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asn1/tst/ber/writer.test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/assert-plus/AUTHORS</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/assert-plus/CHANGES.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/assert-plus/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/assert-plus/assert.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/assert-plus/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/bench.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/abort.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/async.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/defer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/iterate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/readable_asynckit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/readable_parallel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/readable_serial.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/readable_serial_ordered.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/state.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/streamify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/lib/terminator.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/parallel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/serial.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/serialOrdered.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/asynckit/stream.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws-sign2/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws-sign2/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws-sign2/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws-sign2/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/.tern-port</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/aws4.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/lru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/aws4/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bcrypt-pbkdf/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bcrypt-pbkdf/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bcrypt-pbkdf/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/changelog.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/any.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/assert.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/async.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/bind.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/bluebird.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/call_get.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/cancel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/catch_filter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/context.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/direct_resolve.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/each.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/errors.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/es5.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/filter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/finally.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/generators.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/join.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/map.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/method.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/nodeback.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/nodeify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/promise_array.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/promisify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/props.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/queue.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/race.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/reduce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/settle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/some.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/synchronous_inspection.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/thenables.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/timers.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/using.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/js/release/util.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/bluebird/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boom/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boom/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boom/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/boom/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/AUTHORS</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/browser-request/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/caseless/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/caseless/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/caseless/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/caseless/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/caseless/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/co/History.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/co/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/co/Readme.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/co/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/co/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/combined-stream/License</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/combined-stream/Readme.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/combined-stream/lib/combined_stream.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/combined-stream/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/content-type/HISTORY.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/content-type/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/content-type/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/content-type/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/content-type/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/float.patch</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/lib/util.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/core-util-is/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/node_modules/boom/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/node_modules/boom/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/node_modules/boom/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/node_modules/boom/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/cryptiles/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/dashdash/CHANGES.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/dashdash/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/dashdash/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/dashdash/etc/dashdash.bash_completion.in</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/dashdash/lib/dashdash.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/dashdash/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/delayed-stream/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/delayed-stream/License</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/delayed-stream/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/delayed-stream/Readme.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/delayed-stream/lib/delayed_stream.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/delayed-stream/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/lib/LICENSE-jsbn</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/lib/ec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/lib/sec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/ecc-jsbn/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/.eslintrc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/.jscs.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/component.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extend/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/.gitmodules</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/Makefile.targ</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/jsl.node.conf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/lib/extsprintf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/extsprintf/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/.eslintrc.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/benchmark/.eslintrc.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/benchmark/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/spec/.eslintrc.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/spec/index.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/fast-deep-equal/spec/tests.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/forever-agent/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/forever-agent/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/forever-agent/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/forever-agent/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/License</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/README.md.bak</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/lib/browser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/lib/form_data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/lib/populate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/form-data/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/getpass/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/getpass/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/getpass/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/getpass/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/getpass/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/getpass/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/afterRequest.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/beforeRequest.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/browser.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/cache.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/content.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/cookie.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/creator.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/entry.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/har.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/header.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/log.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/page.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/pageTimings.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/postData.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/query.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/request.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/response.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/lib/timings.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-schema/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-validator/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-validator/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-validator/lib/async.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-validator/lib/error.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-validator/lib/promise.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/har-validator/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/client.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/dist/browser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/lib/browser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/lib/client.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/lib/crypto.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/lib/server.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/lib/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hawk/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hoek/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hoek/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hoek/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hoek/lib/escape.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hoek/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/hoek/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/.dir-locals.el</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/CHANGES.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/http_signing.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/lib/parser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/lib/signer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/lib/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/lib/verify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/http-signature/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-typedarray/LICENSE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-typedarray/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-typedarray/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-typedarray/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/is-typedarray/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/.jshintrc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/LICENSE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/isstream.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/isstream/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/example.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsbn/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/.eslintrc.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/spec/.eslintrc.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/spec/fixtures/schema.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema-traverse/spec/index.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-00/hyper-schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-00/json-ref</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-00/links</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-00/schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-01/hyper-schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-01/json-ref</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-01/links</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-01/schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-02/hyper-schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-02/json-ref</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-02/links</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-02/schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/address</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/calendar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/card</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/geo</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/interfaces</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/hyper-schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/json-ref</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/links</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-03/schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-04/hyper-schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-04/links</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-04/schema</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-03.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-04.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/lib/links.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/lib/validate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-schema/test/tests.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/example/key_cmp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/example/nested.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/example/str.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/example/value_cmp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/readme.markdown</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/test/cmp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/test/nested.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/test/replacer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/test/space.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/test/str.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stable-stringify/test/to-json.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/stringify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/test/mocha.opts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/json-stringify-safe/test/stringify_test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/README.markdown</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/lib/parse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/lib/stringify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/test/parse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsonify/test/stringify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsprim/CHANGES.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsprim/CONTRIBUTING.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsprim/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsprim/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsprim/lib/jsprim.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/jsprim/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/.babelrc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/.eslintrc.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/CONTRIBUTING.rst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/browser-index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/browser/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/browser/browserTest.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/browser/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/node/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/node/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/node/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/voip/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/voip/browserTest.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/examples/voip/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/git-hooks/pre-commit</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/git-revision.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/jenkins.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/ReEmitter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/ReEmitter.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/base-apis.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/base-apis.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/client.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/client.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/content-repo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/content-repo.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/DeviceList.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/DeviceList.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/OlmDevice.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/OlmDevice.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/OutgoingRoomKeyRequestManager.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/OutgoingRoomKeyRequestManager.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/base.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/base.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/index.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/megolm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/megolm.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/olm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/algorithms/olm.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/deviceinfo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/deviceinfo.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/index.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/olmlib.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/olmlib.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/base.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/base.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/indexeddb-crypto-store-backend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/indexeddb-crypto-store-backend.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/indexeddb-crypto-store.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/indexeddb-crypto-store.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/memory-crypto-store.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/crypto/store/memory-crypto-store.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/filter-component.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/filter-component.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/filter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/filter.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/http-api.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/http-api.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/indexeddb-worker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/indexeddb-worker.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/interactive-auth.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/interactive-auth.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/matrix.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/matrix.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event-context.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event-context.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event-timeline-set.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event-timeline-set.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event-timeline.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event-timeline.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/event.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/group.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/group.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room-member.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room-member.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room-state.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room-state.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room-summary.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room-summary.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/room.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/search-result.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/search-result.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/user.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/models/user.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/pushprocessor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/pushprocessor.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/realtime-callbacks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/realtime-callbacks.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/scheduler.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/scheduler.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb-local-backend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb-local-backend.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb-remote-backend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb-remote-backend.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb-store-worker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb-store-worker.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/indexeddb.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/memory.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/memory.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/session/webstorage.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/session/webstorage.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/stub.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/store/stub.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/sync-accumulator.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/sync-accumulator.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/sync.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/sync.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/timeline-window.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/timeline-window.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/utils.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/webrtc/call.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/lib/webrtc/call.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/release.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/.eslintrc.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/MockStorageApi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/TestClient.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/devicelist-integ-spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-crypto.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-event-emitter.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-event-timeline.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-methods.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-opts.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-retrying.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-room-timeline.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/matrix-client-syncing.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/integ/megolm-integ.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/olm-loader.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/test-utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/content-repo.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/crypto.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/crypto/DeviceList.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/crypto/algorithms/megolm.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/event-timeline.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/event.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/filter.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/interactive-auth.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/matrix-client.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/pushprocessor.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/realtime-callbacks.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/room-member.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/room-state.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/room.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/scheduler.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/sync-accumulator.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/timeline-window.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/user.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/spec/unit/utils.spec.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/ReEmitter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/base-apis.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/client.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/content-repo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/DeviceList.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/OlmDevice.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/OutgoingRoomKeyRequestManager.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/algorithms/base.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/algorithms/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/algorithms/megolm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/algorithms/olm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/deviceinfo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/olmlib.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/store/base.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/store/indexeddb-crypto-store-backend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/store/indexeddb-crypto-store.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/crypto/store/memory-crypto-store.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/filter-component.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/filter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/http-api.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/indexeddb-worker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/interactive-auth.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/matrix.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/event-context.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/event-timeline-set.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/event-timeline.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/event.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/group.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/room-member.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/room-state.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/room-summary.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/room.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/search-result.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/models/user.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/pushprocessor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/realtime-callbacks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/scheduler.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/indexeddb-local-backend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/indexeddb-remote-backend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/indexeddb-store-worker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/indexeddb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/memory.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/session/webstorage.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/store/stub.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/sync-accumulator.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/sync.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/timeline-window.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/matrix-js-sdk/src/webrtc/call.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-db/HISTORY.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-db/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-db/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-db/db.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-db/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-db/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-types/HISTORY.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-types/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-types/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-types/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mime-types/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/oauth-sign/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/oauth-sign/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/oauth-sign/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/oauth-sign/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/.tm_properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/lib/performance-now.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/lib/performance-now.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/license.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/src/index.d.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/src/performance-now.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/mocha.opts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/performance-now.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/scripts.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/scripts/delayed-call.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/scripts/delayed-require.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/scripts/difference.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/performance-now/test/scripts/initial-value.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/punycode/LICENSE-MIT.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/punycode/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/punycode/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/punycode/punycode.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/.editorconfig</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/.eslintignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/.eslintrc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/dist/qs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/lib/formats.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/lib/parse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/lib/stringify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/lib/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/test/.eslintrc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/test/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/test/parse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/test/stringify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/qs/test/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/auth.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/cookies.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/getProxyFromURI.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/har.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/helpers.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/multipart.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/oauth.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/querystring.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/redirect.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/lib/tunnel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/request/request.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/safe-buffer/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/safe-buffer/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/safe-buffer/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/safe-buffer/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/safe-buffer/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/safe-buffer/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sntp/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sntp/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sntp/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sntp/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sntp/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-conv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-sign</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-verify</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/algs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/certificate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/dhe.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/ed-compat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/errors.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/fingerprint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/auto.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/openssh-cert.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/pem.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/pkcs1.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/pkcs8.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/rfc4253.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/ssh-private.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/ssh.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/x509-pem.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/formats/x509.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/identity.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/key.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/private-key.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/signature.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/ssh-buffer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/lib/utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/man/man1/sshpk-conv.1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/man/man1/sshpk-sign.1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/man/man1/sshpk-verify.1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/sshpk/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/example.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/stringstream/stringstream.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/lib/cookie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/lib/memstore.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/lib/pathMatch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/lib/permuteDomain.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/lib/pubsuffix.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/lib/store.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tough-cookie/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tunnel-agent/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tunnel-agent/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tunnel-agent/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tunnel-agent/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/AUTHORS.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/nacl-fast.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/nacl-fast.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/nacl.d.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/nacl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/nacl.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/tweetnacl/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/.eslintrc.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/AUTHORS</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/HISTORY.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/LICENSE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/bin/uuid</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/lib/bytesToUuid.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/lib/rng-browser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/lib/rng.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/lib/sha1-browser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/lib/sha1.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/v1.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/v4.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/uuid/v5.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/CHANGES.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/CONTRIBUTING.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/lib/verror.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/verror/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package-lock.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,7 +1125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506158049580</updated>
       <workItem from="1506158051157" duration="424000" />
-      <workItem from="1506158639466" duration="242000" />
+      <workItem from="1506158639466" duration="8490000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1506158741874</created>
@@ -162,31 +1134,53 @@
       <option name="project" value="LOCAL" />
       <updated>1506158741875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start">
+      <created>1506158893961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506158893961</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Frontend">
+      <created>1506165607321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506165607322</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add camera data">
+      <created>1506166982191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506166982191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="666000" />
+    <option name="totallyTimeSpent" value="8914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122023806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122023806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -198,7 +1192,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Frontend" />
+    <MESSAGE value="Add camera data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add camera data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -213,19 +1209,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/sources/css/ingame.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="323">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ingame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
