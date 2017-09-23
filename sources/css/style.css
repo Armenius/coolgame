@@ -1,4 +1,81 @@
-h1{
-    text-align: center;
-    font-family: 'Wendy One', sans-serif;
+.btn-start{
+    height: 111px;
+    width: 222px;
+    background-color: firebrick;
+    margin-left: 40%;
+    margin-top: 10%;
 }
+
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background: #acffa5 fixed;
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background: #fff498 fixed;
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background: #d7b2ff fixed;
+}
+
+h1,#box3 *{
+    color: white;
+    font-size: 50px;
+    font-family: "Arial Black", serif;
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#box2 h1 p{
+    color: white;
+    font-size: 20px;
+    font-family: "Arial Black", serif;
+    text-align: inherit;
+    margin: 0;
+}
+
+.alizarin-flat-button {
+    position: relative;
+    vertical-align: top;
+    width: 80%;
+    height: 60px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #e74c3c;
+    border: 0;
+    border-bottom: 2px solid #db4334;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #db4334;
+    box-shadow: inset 0 -2px #db4334;
+}
+.alizarin-flat-button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.background-game{
+    display: table;
+}
+.text{
+    display: table-cell;
+    color: black;
+    text-align: center;
+}
+
