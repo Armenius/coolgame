@@ -4,26 +4,24 @@
 
 #boxcard {
     margin: 0 auto;
-    width: 1020px;
+    width: 1000px;
     z-index: 1;
 }
 
 #boxcard div {
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 130px;
     /*background-color: #fff498;*/
     /*margin: 5px;*/
-    /*padding: 5px;*/
-    border: 1px solid #999;
     cursor: pointer;
-    /*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);*/
-    /*-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);*/
-    /*box-shadow: 0 1px 2px rgba(0,0,0,.5);*/
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
     z-index: 2;
 }
 
-#boxcard div img {
+#boxcard div .face {
     width: 100%;
     border: none;
     z-index: 3;
@@ -50,4 +48,15 @@
 }
 /*.link:hover {*/
     /*!*background-image: ;*!*/
+/*}*/
+
+#optionsParameters{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+/*.host-form{*/
+    /*width: 600px;*/
+    /*text-align: center;*/
 /*}*/

@@ -197,24 +197,25 @@
 </head>
 <body style="background-color: #acffa5">
     <h1 class="text" style="text-align: center; color: white; font-family: 'Arial Black'; font-size: 50px"> Play </h1>
-    <form>
+    <form class="host-form">
         <div id="optionsParameters">
-            <p>
-                <label>Host</label>
-                <input type="text" id="host" value="prod.vidyo.io">
-            </p>
+            <!--<p>-->
+                <!--<label>Host</label>-->
+                <!--<input type="text" id="host" value="prod.vidyo.io">-->
+            <!--</p>-->
             <p>
                 <label>Token</label>
-                <input type="text" id="token" placeholder="Host-Token" value="">
+                <input type="text" id="token" class="form-control" placeholder="Host-Token" value="">
             </p>
             <p>
                 <label for="displayName">Pickup Nickname</label>
-                <input id="displayName" type="text" placeholder="Nickname" value="Guest">
+                <input id="displayName" type="text" placeholder="Nickname" class="form-control" value="Guest">
             </p>
             <p>
                 <label for="resourceId">Room name</label>
-                <input id="resourceId" type="text" placeholder="Room name" value="demoRoom">
+                <input id="resourceId" type="text" placeholder="Room name" class="form-control" value="demoRoom">
             </p>
+            <input type="button" id="joinLeaveButton" title="Join Conference" class="toolbarButton callStart btn-info" value="Connect the server">
         </div>
         <!--<p>-->
             <!--<label for="cameras">Cameras</label>-->
@@ -235,8 +236,8 @@
             <!--</select>-->
         <!--</p>-->
     </form>
-    <a href="javascript:joinViaBrowser()">CAMERA ON</a>
-    <input type="button" id="joinLeaveButton" title="Join Conference" class="toolbarButton callStart" value="Connect the server">
+    <!--<a href="javascript:joinViaBrowser()">CAMERA ON</a>-->
+    <!--<input type="button" id="joinLeaveButton" title="Join Conference" class="toolbarButton callStart" value="Connect the server">-->
 
     <!--<div id="renderer0" style="height: 500px; width: 100%"> </div>-->
     <!--<div id="renderer1" style="height: 500px; width: 100%"> </div>-->
@@ -253,18 +254,16 @@
         &nbsp;
     </div>
     <div id="boxcard">
-        <div id="card1"><div style="visibility: hidden" id="renderer0"></div>
-            <img src="../media/img/01.jpg" /></div>
-        <div id="card2"><div id="renderer1"></div>
-            <img src="../media/img/02.jpg" /></div>
-        <div id="card3"><img src="../media/img/03.jpg" /></div>
-        <div id="card4"><img src="../media/img/04.jpg" /></div>
-        <div id="card5"><img src="../media/img/05.jpg" /></div>
-        <div id="card11"><img src="../media/img/01.jpg" /></div>
-        <div id="card12"><img src="../media/img/02.jpg" /></div>
-        <div id="card13"><img src="../media/img/03.jpg" /></div>
-        <div id="card14"><img src="../media/img/04.jpg" /></div>
-        <div id="card15"><img src="../media/img/05.jpg" /></div>
+        <div id="card1" class="face-cell"><div id="renderer0" class="face"></div></div>
+        <div id="card2"><div id="renderer1" class="face"></div></div>
+        <div id="card3"><div id="renderer2" class="face"></div></div>
+        <div id="card4"><div id="renderer3" class="face"></div></div>
+        <div id="card5"><div id="renderer4" class="face"></div></div>
+        <div id="card11"></div>
+        <div id="card12"></div>
+        <div id="card13"></div>
+        <div id="card14"></div>
+        <div id="card15"></div>
 
     </div>
 

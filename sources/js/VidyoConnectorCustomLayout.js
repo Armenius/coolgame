@@ -559,7 +559,7 @@ function connectToConference(vidyoConnector, rendererSlots, remoteCameras, confi
 
     vidyoConnector.Connect({
         // Take input from options form
-        host: $("#host").val(),
+        host: "prod.vidyo.io",
         token: $("#token").val(),
         displayName: $("#displayName").val(),
         resourceId: $("#resourceId").val(),
