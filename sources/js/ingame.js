@@ -14,7 +14,7 @@ function shuffle() {
     var array_img = new Array();
 
     for (i=0; i<children.length; i++) {
-        array_img[i] = $("#"+child.attr("id")+" .face").attr("src");
+        array_img[i] = $("#"+child.attr("id")+" .face").attr("id");
         child = child.next();
     }
 
@@ -24,7 +24,7 @@ function shuffle() {
         randIndex = randomFromTo(0, array_img.length - 1);
 
         // set new image
-        $("#"+child.attr("id")+" .face").attr("src", array_img[randIndex]);
+        $("#"+child.attr("id")+" .face").attr("id", array_img[randIndex]);
         array_img.splice(randIndex, 1);
 
         child = child.next();
@@ -55,6 +55,7 @@ $(document).ready(function() {
     function openCard() {
 
         id = $(this).attr("id");
+        // title = $(this).attr("title");
 
         if ($("#"+id+" .face").is(":hidden")) {
             $("#boxcard .face-cell").unbind("click", openCard);
@@ -63,13 +64,16 @@ $(document).ready(function() {
 
             if (imgopened == "") {
                 boxopened = id;
-                imgopened = $("#"+id+" .face").attr("src");
+                imgopened = $("#"+id+" .face").attr("id");
                 setTimeout(function() {
                     $("#boxcard .face-cell").bind("click", openCard)
                 }, 300);
             } else {
-                currentopened = $("#"+id+" .face").attr("src");
-                if (imgopened != currentopened) {
+                currentopened = $("#"+id+" .face").attr("id");
+                console.log(" AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA - " + imgopened.toString()  + "  " + currentopened.toString().slice(0, -1));
+                console.log(" AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA - " + imgopened.toString().slice(0, -1)  + "  " + currentopened.toString());
+                console.log(" AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA - " + (imgopened.toString() !== currentopened.toString().slice(0, -1) ) || (imgopened.toString().slice(0, -1) !== currentopened.toString()));
+                if ((imgopened.toString() !== currentopened.toString().slice(0, -1) ) && (imgopened.toString().slice(0, -1) !== currentopened.toString())) {
                     // close again
                     setTimeout(function() {
                         $("#"+id+" .face").slideUp('fast');

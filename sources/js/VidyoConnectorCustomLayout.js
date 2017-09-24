@@ -197,11 +197,12 @@ function registerDeviceListeners(vidyoConnector, cameras, microphones, speakers,
         onStateUpdated: function(localCamera, state) {
             // Camera state was updated
             vidyoConnector.AssignViewToLocalCamera({
-                viewId: "renderer01",
+                viewId: "renderer00",
                 localCamera: localCamera,
                 displayCropped: true,
                 allowZoom: false
-            })
+            });
+            ShowRenderer(vidyoConnector, "renderer00");
         }
     }).then(function() {
         console.log("RegisterLocalCameraEventListener Success");
