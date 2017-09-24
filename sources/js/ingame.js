@@ -9,22 +9,22 @@ function randomFromTo(from, to){
 
 function shuffle() {
     var children = $("#boxcard").children();
-    var child = $("#boxcard div:first-child");
+    var child = $("#boxcard .face-cell:first-child");
 
     var array_img = new Array();
 
     for (i=0; i<children.length; i++) {
-        array_img[i] = $("#"+child.attr("id")+" img").attr("src");
+        array_img[i] = $("#"+child.attr("id")+" .face").attr("src");
         child = child.next();
     }
 
-    var child = $("#boxcard div:first-child");
+    var child = $("#boxcard .face-cell:first-child");
 
     for (z=0; z<children.length; z++) {
         randIndex = randomFromTo(0, array_img.length - 1);
 
         // set new image
-        $("#"+child.attr("id")+" img").attr("src", array_img[randIndex]);
+        $("#"+child.attr("id")+" .face").attr("src", array_img[randIndex]);
         array_img.splice(randIndex, 1);
 
         child = child.next();
@@ -33,8 +33,8 @@ function shuffle() {
 
 function resetGame() {
     shuffle();
-    $("img").hide();
-    $("img").removeClass("opacity");
+    $(".face").hide();
+    $(".face").removeClass("opacity");
     count = 0;
     $("#msg").remove();
     $("#count").html("" + count);
@@ -45,10 +45,10 @@ function resetGame() {
 }
 
 $(document).ready(function() {
-    $("#boxcard div").css( "background-color", "#" + Math.floor(Math.random()*16777215).toString(16));
+    $("#boxcard .face-cell").css( "background-color", "#" + Math.floor(Math.random()*16777215).toString(16));
 
-    $("img").hide();
-    $("#boxcard div").click(openCard);
+    $(".face").hide();
+    $("#boxcard .face-cell").click(openCard);
 
     shuffle();
 
@@ -56,38 +56,38 @@ $(document).ready(function() {
 
         id = $(this).attr("id");
 
-        if ($("#"+id+" img").is(":hidden")) {
-            $("#boxcard div").unbind("click", openCard);
+        if ($("#"+id+" .face").is(":hidden")) {
+            $("#boxcard .face-cell").unbind("click", openCard);
 
-            $("#"+id+" img").slideDown('fast');
+            $("#"+id+" .face").slideDown('fast');
 
             if (imgopened == "") {
                 boxopened = id;
-                imgopened = $("#"+id+" img").attr("src");
+                imgopened = $("#"+id+" .face").attr("src");
                 setTimeout(function() {
-                    $("#boxcard div").bind("click", openCard)
+                    $("#boxcard .face-cell").bind("click", openCard)
                 }, 300);
             } else {
-                currentopened = $("#"+id+" img").attr("src");
+                currentopened = $("#"+id+" .face").attr("src");
                 if (imgopened != currentopened) {
                     // close again
                     setTimeout(function() {
-                        $("#"+id+" img").slideUp('fast');
-                        $("#"+boxopened+" img").slideUp('fast');
+                        $("#"+id+" .face").slideUp('fast');
+                        $("#"+boxopened+" .face").slideUp('fast');
                         boxopened = "";
                         imgopened = "";
                     }, 400);
                 } else {
                     // found
-                    $("#"+id+" img").addClass("opacity");
-                    $("#"+boxopened+" img").addClass("opacity");
+                    $("#"+id+" .face").addClass("opacity");
+                    $("#"+boxopened+" .face").addClass("opacity");
                     found++;
                     boxopened = "";
                     imgopened = "";
                 }
 
                 setTimeout(function() {
-                    $("#boxcard div").bind("click", openCard)
+                    $("#boxcard .face-cell").bind("click", openCard)
                 }, 400);
             }
 
